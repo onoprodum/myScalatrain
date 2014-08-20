@@ -1,8 +1,8 @@
-package org.scalatrain
-
 /**
  * Created by Irina on 8/3/14.
  */
+package org.scalatrain
+
 object Time {
   def fromMinutes( minutes: Int ) = {
     require( minutes >= 0, "minutes must not be negative")

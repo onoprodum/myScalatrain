@@ -15,3 +15,6 @@ libraryDependencies ++= Seq(
 libraryDependencies ++= Seq(
     "org.specs2" %% "specs2" % "2.4" % "test"
   )
+
+instrumentSettings
+
